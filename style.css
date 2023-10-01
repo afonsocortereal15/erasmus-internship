@@ -1,3 +1,48 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #5ed9ff, #94e6ff);
+    background-attachment: fixed;
 }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fdc46f;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    text-align: right;
+  }
+  
+  .input-group i {
+    font-size: 20px;
+    color: #979797;
+    margin-top: 5px;
+  }
