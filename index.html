@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Erasmus Intership</title>
   <meta charset="UTF-8">
@@ -7,32 +8,47 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
+
 <body>
+
   <div class="container">
+
+    <!--Login Icon/ Header-->
     <div class="header">
       <img src="imgs/user-icon.png" alt="Login logo" width="40%">
     </div>
-    <form class="login-form">
+
+    <!--Login Form-->
+    <form action="authenticate.php" method="post" class="login-form">
+
+      <!--Username Input-->
       <div class="input-group">
         <i class="fas fa-user"></i>
         <label for="username">Username</label><br>
         <input type="text" id="username" name="username" required>
       </div>
+
+      <!--Password Input-->
       <div class="input-group">
         <i class="fas fa-lock"></i>
         <label for="password">Password</label>
         <br>
         <input type="password" id="password" name="password" required>
       </div>
+
+      <!--Remember me button -->
       <div class="input-group">
         <label>
           <input class="remember-me" type="checkbox" name="remember">Remember me
         </label>
       </div>
+
+      <!--Forgot Password + Submit-->
       <a href="#">Forgot password?</a>
       <br>
       <input type="submit" value="Login">
     </form>
   </div>
 </body>
+
 </html>
