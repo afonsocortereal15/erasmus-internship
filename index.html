@@ -10,24 +10,27 @@
 <body>
   <div class="container">
     <div class="header">
-      <img src="imgs/user-icon.png" alt="Login logo" width="25%">
+      <img src="imgs/user-icon.png" alt="Login logo" width="40%">
     </div>
-    <form>
+    <form class="login-form">
       <div class="input-group">
         <i class="fas fa-user"></i>
-        <label for="username">Username</label>
+        <label for="username">Username</label><br>
         <input type="text" id="username" name="username" required>
       </div>
       <div class="input-group">
         <i class="fas fa-lock"></i>
         <label for="password">Password</label>
+        <br>
         <input type="password" id="password" name="password" required>
       </div>
       <div class="input-group">
-        <input type="checkbox" id="remember" name="remember">
-        <label for="remember">Remember me</label>
+        <label>
+          <input class="remember-me" type="checkbox" name="remember">Remember me
+        </label>
       </div>
       <a href="#">Forgot password?</a>
+      <br>
       <input type="submit" value="Login">
     </form>
   </div>
