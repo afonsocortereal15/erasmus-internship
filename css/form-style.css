@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom, #5ed9ff, #94e6ff);
+    background-attachment: fixed;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 80vh;
+  }
+
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .form-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }

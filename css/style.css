@@ -24,7 +24,6 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fdc46f;
     width: 100%;
   }
   
@@ -57,4 +56,11 @@ body {
   .login-form {
     width: 95%;
     font-size: 20px;
+  }
+
+
+  .form-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
   }
