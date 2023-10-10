@@ -17,6 +17,14 @@
       <img src="imgs/user-icon.png" alt="Login logo" width="40%">
     </div>
 
+    <script>
+      function validate(val){
+        document.getElementById("role").value = val;
+
+       //alert(val);
+      }
+    </script>
+    
     <!--Login Form-->
     <form action="authenticate.php" method="post" class="login-form">
 
@@ -45,8 +53,9 @@
 
       <!--Forgot Password + Submit-->
       <a href="#">Forgot password?</a>
-      <br>
-      <input type="submit" value="Login">
+      <input class = "input-role" type="submit" value="Teacher" onclick="validate(1)">
+      <input class = "input-role" type="submit" value="Mentors" onclick="validate(2)">
+      <input class = "input-role" type="submit" value="Administrator" onclick="validate(3)">
     </form>
   </div>
 </body>
