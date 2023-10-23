@@ -1,67 +1,81 @@
 body {
-    font-family: sans-serif;
-    background-image: linear-gradient(to bottom, #5ed9ff, #94e6ff);
-    background-attachment: fixed;
+  font-family: sans-serif;
+  background-image: linear-gradient(to bottom, #5ed9ff, #94e6ff);
+  background-attachment: fixed;
 }
-  
-  .container {
-    display: grid;
-    place-items: center;
-    height: 80vh;
-  }
-  
-  .header {
-    text-align: center;
-  }
-  
-  .input-group {
-    margin-bottom: 10px;
-    font-weight: bold;
-    width: 95%;
-  }
-  
-  input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    background-color: #fdc46f;
-  }
-  
-  input[type="submit"] {
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    margin-top: 4%;
-  }
 
-  input[type="checkbox"] {
-    width: auto;
-  }
-  
-  .forgot-password {
-    text-align: right;
-  }
-  
-  .input-group i {
-    font-size: 20px;
-    color: #979797;
-    margin-top: 5px;
-  }
+header {
+  background-color: white;
+  text-align: center;
+}
 
-  .login-form {
-    width: 95%;
-    font-size: 20px;
-  }
+footer {
+  background-color: white;
+  text-align: center;
+}
 
+.container {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
 
-  .form-container {
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-  }
+.header {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: 95%;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #fdc46f;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+.input-role {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+.forgot-password {
+  text-align: right;
+}
+
+.input-group i {
+  font-size: 20px;
+  color: #979797;
+  margin-top: 5px;
+}
+
+.login-form {
+  width: 95%;
+  font-size: 20px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logos {
+  padding: 10px;
+}
