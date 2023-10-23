@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Erasmus Intership - Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  </head>
 
-<head>
-  <title>Erasmus Intership - Form</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/form-style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-</head>
-
-<body>
-
+  <body>
     <div class="container">
-        <h4 style="color: white;">IMPLEMENTATION PLAN OF LEARNING THROUGH WORK</h4>
+      <!-- Header -->
+      <h2 style="color: white;">IMPLEMENTATION PLAN OF LEARNING THROUGH WORK</h2>
 
-        <form>
-          <label for="fname">Company in which learning through work is implemented:</label><br>
-          <input type="text" id="company" name="company"><br>
+      <form>
+        <!-- Questions outside the container -->
+        <label>Company in which learning through work is implemented:</label>
+        <input type="text" id="company" name="company">
 
-          <label for="fname">Estimated duration of learning by doing:</label><br>
-          <input type="text" id="duration" name="duration"><br>
+        <label>Estimated duration of learning by doing:</label>
+        <input type="text" id="duration" name="duration">
 
-          <label for="fname">Work method where learning through work is realized:</label><br>
-          <input type="text" id="method" name="method"><br>
+        <label>Work method where learning through work is realized:</label>
+        <input type="text" id="work-method" name="work-method">
 
-          <div class="form-container">
-          <label for="fname">Sequence of modules/topics for learning through work:</label><br>
-          <input type="text" id="id1" name="id1"><br>
-          </div>
-        </form>
+        <!-- Questions inside the container-->
+        <div class="form-container">
+          <label>Sequence of modules/topics for learning through work:</label>
+          <input type="text" id="modules-sequence" name="modules-sequence">
+
+          <label>Realization of vision:</label>
+          <input type="text" id="vision-realization" name="vision-realization">
+
+          <label>Estimated time for the realization of the outcome:</label>
+          <input type="text" id="estimated-time" name="estimated-time">
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
