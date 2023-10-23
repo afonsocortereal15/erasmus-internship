@@ -6,10 +6,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
+  <header>
+    <img class="logos" src="imgs/project-logo.jpeg" alt="Project logo" width="25%">
+    <img class="logos" src="imgs/erasmus-logo.png" alt="Erasmus logo" width="50%">
+
+  </header>
+
   <div class="container">
 
     <!--Login Icon / Header-->
@@ -18,13 +25,13 @@
     </div>
 
     <script>
-      function validate(val){
+      function validate(val) {
         document.getElementById("role").value = val;
 
-       //alert(val);
+        //alert(val);
       }
     </script>
-    
+
     <!--Login Form-->
     <form action="authenticate.php" method="post" class="login-form">
 
@@ -33,7 +40,7 @@
         <i class="fas fa-user"></i>
         <label for="username">Username</label>
         <br>
-        <input type="text" id="username" name="username" autocomplete="username" required>
+        <input type="text" id="username" name="username" autocomplete="username" required autofocus>
       </div>
 
       <!--Password Input-->
@@ -47,17 +54,24 @@
       <!--Remember me button -->
       <div class="input-group">
         <label>
-          <input class="remember-me" type="checkbox" name="remember">Remember me
+          <input type="checkbox" name="remember">Remember me
         </label>
       </div>
 
       <!--Forgot Password + Submit-->
-      <a href="#">Forgot password?</a>
-      <input class = "input-role" type="submit" value="Teacher" onclick="validate(1)">
-      <input class = "input-role" type="submit" value="Mentors" onclick="validate(2)">
-      <input class = "input-role" type="submit" value="Administrator" onclick="validate(3)">
+      <a href="#">Forgot password?</a><br>
+      <p>Login as:</p>
+      <input class="input-role" type="submit" value="Teacher" onclick="validate(1)"><br>
+      <input class="input-role" type="submit" value="Mentors" onclick="validate(2)"><br>
+      <input class="input-role" type="submit" value="Administrator" onclick="validate(3)"><br>
     </form>
   </div>
+
+  <footer>
+    <img class="logos" src="imgs/TUR-school-logo.jpg" alt="Turkish school logo" width="15%">
+    <img class="logos" src="imgs/SRB-school-logo.png" alt="Serbian school logo" width="10%">
+    <img class="logos" src="imgs/PRT-school-logo.png" alt="Portuguese school logo" width="25%">
+  </footer>
 </body>
 
 </html>
