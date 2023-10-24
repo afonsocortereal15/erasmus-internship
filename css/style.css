@@ -2,22 +2,33 @@ body {
   font-family: sans-serif;
   background-image: linear-gradient(to bottom, #5ed9ff, #94e6ff);
   background-attachment: fixed;
+  margin: 0px;
 }
 
 header {
   background-color: white;
   text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
 
 footer {
   background-color: white;
   text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
 }
 
 .container {
   display: grid;
   place-items: center;
-  height: 80vh;
+  margin: auto;
+  width: 75%;
+  padding: 10px;
 }
 
 .header {
@@ -49,9 +60,9 @@ input[type="checkbox"] {
   cursor: pointer;
   font-size: 20px;
   font-weight: bold;
-  width: 50%;
+  width: 55%;
   text-align: center;
-  margin-left: 25%;
+  margin-left: 22%;
   margin-top: 2%;
 }
 
