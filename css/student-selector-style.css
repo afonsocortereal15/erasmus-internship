@@ -15,12 +15,16 @@ header {
 footer {
   background-color: white;
   text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  bottom: 0px;
 }
 
 .container {
   display: grid;
   place-items: center;
-  height: 80vh;
+  height: 50vh;
   width: 100%;
 }
 
