@@ -44,7 +44,7 @@ input[type=range] {
 }
 
 form {
-  max-width: 80%;
+  width: 50%;
 }
 
 .next-button {
