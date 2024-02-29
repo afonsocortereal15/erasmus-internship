@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Erasmus Intership - Form</title>
+  <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/form-style.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <h1 style="color: white;">IMPLEMENTATION PLAN OF LEARNING THROUGH WORK</h1>
+
+    <form>
+      <!-- Questions outside the container -->
+      <label>Company in which learning through work is implemented:</label><br>
+      <input type="text" id="company" name="company">
+
+      <label>Estimated duration of learning by doing:</label><br>
+      <input type="text" id="duration" name="duration">
+
+      <label>Work method where learning through work is realized:</label><br>
+      <input type="text" id="work-method" name="work-method">
+
+      <!-- Questions inside the container-->
+      <div class="form-container">
+        <label>Sequence of modules/topics for learning through work:</label><br>
+        <input type="text" id="modules-sequence" name="modules-sequence">
+
+        <label>Realization of vision:</label><br>
+        <input type="text" id="vision-realization" name="vision-realization">
+
+        <label>Estimated time for the realization of the outcome:</label><br>
+        <input type="text" id="estimated-time" name="estimated-time">
+      </div>
+      <button type="button" class="next-button" onclick="window.location.href = 'form2.html'">Next</button>
+    </form>
+  </div>
+</body>
+
+</html>

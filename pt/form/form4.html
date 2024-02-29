@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Erasmus Intership - Form</title>
+  <link rel="icon" type="image/x-icon" href="/imgs/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/form-style.css">
+  <script src="/js/form4-sliders.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <h1 style="color: white;">EVALUATION FORM</h1>
+
+    <form>
+      <!-- Questions outside the container -->
+      <label>Period from:</label>
+      <input type="date" id="period-from" name="period-from" required><br>
+
+      <label>To:</label>
+      <input type="date" id="period-to" name="period-to" required><br>
+
+      <label>Workplace:</label>
+      <input type="text" id="workplace" name="workplace" required><br>
+
+      <!-- Questions inside the container-->
+      <div class="form-container">
+        <label for="lifelong-learning">Competence for lifelong learning:</label>
+        <output id="lifelong-learning">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="lifelong-learning-fader" step="1" required
+          oninput="outputUpdate('lifelong-learning', value)"><br>
+
+        <label>Communication:</label>
+        <output id="communication">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="communication-fader" step="1" required
+          oninput="outputUpdate('communication', value)"><br>
+
+        <label>Working with data and information:</label>
+        <output id="work">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="work-fader" step="1" required
+          oninput="outputUpdate('work', value)"><br>
+
+        <label>Digital competence:</label>
+        <output id="digital-competence">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="digital-competence-fader" step="1" required
+          oninput="outputUpdate('digital-competence', value)"><br>
+
+        <label>Troubleshooting:</label>
+        <output id="troubleshooting">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="troubleshooting-fader" step="1" required
+          oninput="outputUpdate('troubleshooting', value)"><br>
+
+        <label>Cooperation:</label>
+        <output id="cooperation">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="cooperation-fader" step="1" required
+          oninput="outputUpdate('cooperation', value)"><br>
+
+        <label>Responsible participation in a democratic society:</label>
+        <output id="part-democ">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="part-democ-fader" step="1" required
+          oninput="outputUpdate('part-democ', value)"><br>
+
+        <label>Responsible attitude towards health:</label>
+        <output id="respons-health">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="respons-health-fader" step="1" required
+          oninput="outputUpdate('respons-health', value)"><br>
+
+        <label>Responsible attitude towards the environment:</label>
+        <output id="respons-env">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="respons-env-fader" step="1" required
+          oninput="outputUpdate('respons-env', value)"><br>
+
+        <label>Aesthetic competence:</label>
+        <output id="aesthetic-competence">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="aesthetic-competence-fader" step="1" required
+          oninput="outputUpdate('aesthetic-competence', value)"><br>
+
+        <label>Entrepreneurship and orientation towards entrepreneurship:</label>
+        <output id="entrepreneurship">...</output><br>
+        <input type="range" min="1" max="5" value="3" id="entrepreneurship-fader" step="1" required
+          oninput="outputUpdate('entrepreneurship', value)"><br>
+      </div>
+
+      <label>Total points:</label>
+      <input type="number" min="0" max="20" id="points" name="points" required><br>
+
+      <label>Average:</label>
+      <input type="text" id="average" name="average" required><br>
+
+      <label>Evaluation participants:</label>
+      <input type="text" id="eval-participants" name="eval-participants" required><br>
+
+      <label>Conducted interview with the student:</label>
+      <input type="text" id="interview" name="interview" required><br>
+
+      <label>Evaluator, I give and sign:</label>
+      <input type="checkbox" id="signed" name="signed" required>
+
+      <button class="next-button">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Erasmus Intership - Student Selector</title>
+  <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/student-selector-style.css">
+  <script src="/js/student-selector-script.js"></script>
+</head>
+
+<body>
+  <header>
+    <img class="logos" src="/imgs/project-logo.png" alt="Project logo" width="25%">
+    <img class="logos" src="/imgs/erasmus-logo.png" alt="Erasmus logo" width="50%">
+  </header>
+
+  <div class="container">
+    <div class="dropdown">
+      <a href="addStudent.html">
+        <button class="dropbtn">Add Student</button>
+      </a>  
+      <a href="addCompany.html">
+        <button class="dropbtn">Add Company</button>
+      </a>  
+      <button onclick="myFunction()" class="dropbtn">Select Student</button>
+      <div id="myDropdown" class="dropdown-content">
+
+        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+        <a href="../form/form1.html">Student 001</a>
+        <a href="../form/form1.html">Student 002</a>
+        <a href="../form/form1.html">Student 003</a>
+        <a href="../form/form1.html">Student 004</a>
+        <a href="../form/form1.html">Student 005</a>
+        <a href="../form/form1.html">Student 006</a>
+        <a href="../form/form1.html">Student 007</a>
+      </div>
+    </div>
+    
+  </div>
+
+  <footer>
+    <img class="logos" src="/imgs/TUR-school-logo.png" alt="Turkish school logo" width="15%">
+    <img class="logos" src="/imgs/SRB-school-logo.png" alt="Serbian school logo" width="10%">
+    <img class="logos" src="/imgs/PRT-school-logo.png" alt="Portuguese school logo" width="25%">
+  </footer>
+</body>
+
+</html>

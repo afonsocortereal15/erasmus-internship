@@ -18,56 +18,15 @@
   </header>
 
   <div class="container">
-
-    <!--Login Icon / Header-->
-    <div class="header">
-      <img src="imgs/user-icon.png" alt="Login logo" width="40%">
+    <div class="coco">
+      <a href="pt/index.html"><img src="imgs/portugal-flag.png" width="50%"></a>
+      <a href="rs/index.html"><img src="imgs/serbia-flag.png" width="50%"></a>
     </div>
-
-    <script>
-      function validate(val) {
-        document.getElementById("role").value = val;
-
-        //alert(val);
-      }
-    </script>
-
-    <!--Login Form-->
-    <form action="authenticate.php" method="post" class="login-form">
-
-      <!--Username Input-->
-      <div class="input-group">
-        <i class="fas fa-user"></i>
-        <label for="username">Username</label>
-        <br>
-        <input type="text" id="username" name="username" autocomplete="username" required autofocus>
-      </div>
-
-      <!--Password Input-->
-      <div class="input-group">
-        <i class="fas fa-lock"></i>
-        <label for="password">Password</label>
-        <br>
-        <input type="password" id="password" name="password" autocomplete="current-password" required>
-      </div>
-
-      <!--Remember me button -->
-      <div class="input-group">
-        <label>
-          <input type="checkbox" name="remember">Remember me
-        </label>
-      </div>
-
-      <!--Forgot Password + Submit-->
-      <a href="#">Forgot password?</a><br>
-      <p>Login as:</p>
-      <input class="input-role" type="button" value="Teacher"
-        onclick="window.location.href = 'student-selector/index.html'"><br>
-      <input class="input-role" type="button" value="Mentors"
-        onclick="window.location.href = 'student-selector/index.html'"><br>
-      <input class="input-role" type="button" value="Administrator"
-        onclick="window.location.href = 'student-selector/index.html'"><br>
-    </form>
+    <div class="xixi">
+      <a href="tr/index.html"><img src="imgs/turkey-flag.png" width="50%"></a>
+      <a href="en/index.html"><img src="imgs/uk-flag.png" width="50%"></a>
+    </div>
+    
   </div>
 
 

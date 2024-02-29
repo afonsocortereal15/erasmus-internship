@@ -28,6 +28,8 @@ footer {
   margin: auto;
   width: 60%;
   padding: 10px;
+  text-align: center;
+  
 }
 
 .header {
@@ -61,8 +63,7 @@ input[type="checkbox"] {
   font-weight: bold;
   width: 55%;
   text-align: center;
-  margin-left: 22%;
-  margin-top: 2%;
+
 }
 
 .forgot-password {
@@ -88,4 +89,16 @@ input[type="checkbox"] {
 
 .logos {
   padding: 10px;
+}
+
+.coco{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.xixi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
