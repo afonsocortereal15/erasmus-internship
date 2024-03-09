@@ -1,104 +1,40 @@
 body {
-  font-family: sans-serif;
-  background-image: linear-gradient(to bottom, #5ed9ff, #94e6ff);
-  background-attachment: fixed;
-  margin: 0px;
-}
-
-header {
-  background-color: white;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-  padding: 10px;
+  /*background-color: #eee;*/
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 footer {
-  background-color: white;
-  text-align: center;
-  width: 50%;
   margin: auto;
-  padding: 10px;
-  bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.container {
-  display: grid;
-  place-items: center;
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-  text-align: center;
-  
+nav {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 36%, rgba(0, 0, 0, 0) 98%);
 }
 
-.header {
-  text-align: center;
+a {
+  color: none;
 }
 
-.input-group {
-  margin-bottom: 10px;
-  font-weight: bold;
-  width: 95%;
+.nav-link {
+  color: white;
 }
 
-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 100%;
-  background-color: #fdc46f;
+.nav-link:hover {
+  color: #b4b4b4;
 }
 
-input[type="checkbox"] {
-  width: 25px;
-  height: 25px;
+.nav-link:focus {
+  color: white;
 }
 
-.input-role {
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  width: 55%;
-  text-align: center;
-
+.navbar-toggler {
+  color: white;
 }
 
-.forgot-password {
-  text-align: right;
-}
-
-.input-group i {
-  font-size: 20px;
-  color: #979797;
-  margin-top: 5px;
-}
-
-.login-form {
-  width: 95%;
-  font-size: 20px;
-}
-
-.form-container {
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.logos {
-  padding: 10px;
-}
-
-.coco{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.xixi{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.bi-list {
+  color: white;
 }

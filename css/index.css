@@ -1,0 +1,45 @@
+main {
+  background-color: rgb(255, 240, 223);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  width: 75%;
+}
+
+.btn-color {
+  color: #fff;
+}
+
+.btn-color:hover {
+  color: #fff;
+}
+
+.profile-image-pic {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.cardbody-color {
+  background-color: #ffffff;
+}
+
+a {
+  color: #0a6ffd;
+}
+
+a:hover {
+  color: #4894ff;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.school-logo {
+  max-width: 75px;
+}
